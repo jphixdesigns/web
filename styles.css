@@ -1,0 +1,214 @@
+/* General Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('hex-textured-background-networking.jpg');
+  /* background-image: url('hex-textured-background-networking\ -\ Copy.jpg'); */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Ensures the image stays fixed while scrolling */
+  color: #fff; /* Adjust text color for better readability */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #800000; /* Maroon */
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #06085d; /* Light Navy Blue */
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 50px 0;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+/* .item {
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  text-align: center;
+} */
+
+.item h3 {
+  background-color: white;
+  text-align: center;
+  color: #06085d; /* Light navy blue */
+}
+/* .item h3 {
+  margin-bottom: 15px;
+} */
+
+/* .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+} */
+
+.images img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    /* animation:size 5s linear ; */
+}
+/* @keyframes size {
+  0%{
+    width: 5%;
+    max-width: 200px;
+    height: auto;
+  }
+  25%{
+    width: 25%;
+  max-width: 200px;
+  height: auto;
+  }
+  50%{
+    width: 50%;
+  max-width: 200px;
+  height: auto;
+  }
+  75%{
+    width: 75%;
+  max-width: 200px;
+  height: auto;
+  }
+  100%{
+    width: 100%;
+  max-width: 200px;
+  height: auto;
+  }
+
+
+} */
+
+/* Mission & Vision Section */
+.mission {
+  background-color: #620909;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.mission h2 {
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 0;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  background-color: #06085d;
+
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact input, .contact select, .contact textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #800000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #0077b6;
+}
+
+/* Footer */
+footer {
+  background-color: #800000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
